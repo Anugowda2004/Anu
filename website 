@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>MVJ College of Engineering</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <section class="header">
-            <nav>
-                <a href="web.html"><img src="mvj logo.png.png"></a>
-                <div class="nav-links">
-                    <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">ABOUT</a></li>
-                        <li><a href="">COURSE</a></li>
-                        <li><a href="">FACULTY</a></li>
-                        <li><a href="">CONTACT</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="text-box">
-                <h1>MVJ College of Engineering</h1>
-                <p>MVJCE is one of the best colleges in Bangalore for Engineering courses.It ranks 8th among the top Engineering colleges in Bangalore. It is an autonomous institute,and hence offers a tailor-made program in Computer Science Engineering, with the ultimate goal of making every student industry-ready, at the end of 4 years of his study here..</p>
-                <a href="" class="hero-btn">Visit us to know more</a>
-            </div>
-        </section>
+<head>
+<title>MVJ College of Engineering
+</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="header">
+<nav>
+<a href="web.html"><img src="mvj logo.png.png"></a>
+<div class="nav-links">
+<ul>
+<li><a href="">HOME</a></li>
+<li><a href="">ABOUT</a></li>
+<li><a href="">COURSE</a></li>
+<li><a href="">FACULTY</a></li>
+<li><a href="">CONTACT</a></li>
+</ul>
+</div>
+</nav>
+<div class="text-box">
+<h1>MVJ College of Engineering</h1><p>MVJCE is one of the best colleges in Bangalore for Engineering courses.It ranks 8th among the top Engineering colleges in Bangalore. It is an autonomous institute,and hence offers a tailor-made program in Computer Science Engineering, with the ultimate goal of making every student industry-ready, at the end of 4 years of his study here.</p>
+<a href="" class="hero-btn">Visit us to know more</a>
+</div>
+</section>
         <section class="courses">
             <h1>Courses we offer</h1>
             <div class="row">
