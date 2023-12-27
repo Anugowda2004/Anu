@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MVJ College of Engineering</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="web.html"><img src="mvj logo.png.png"></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">FACULTY</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="text-box">
+                <h1>MVJ College of Engineering</h1>
+                <p>MVJCE is one of the best colleges in Bangalore for Engineering courses.It ranks 8th among the top Engineering colleges in Bangalore. It is an autonomous institute,and hence offers a tailor-made program in Computer Science Engineering, with the ultimate goal of making every student industry-ready, at the end of 4 years of his study here..</p>
+                <a href="" class="hero-btn">Visit us to know more</a>
+            </div>
+        </section>
+        <section class="courses">
+            <h1>Courses we offer</h1>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Computer Science Engineering</h3>
+                    <p>CSE is an academic program which comprises approaches of computer science and computer engineering.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Chemical Engineering</h3>
+                    <p>Chemical Engineering is an engineering field which deals with the study of operatiom and desigh of chemical plants as well as methods of improving production.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Civil Engineering</h3>
+                    <p>Civil Engineering is a professional engineering discipline that deals with the design,construction and maintanenance.</p>
+                </div>
+            </div>
+        </section>
+        <section class="campus">
+            <h1>Our MVJCE Campus</h1>
+            <p>MVJCE is one of the best colleges in Bangalore for Engineering courses.</p><br>
+                    <img src="p1.jpeg">
+        </section>
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="p5.jpeg">
+                    <h3>Central Library</h3>
+                    <p>The Central Library is spread over 17000 sq.ft, and more than 69933 books. The Library subscribes to more than 60 national and international journals. MVJCE also publishes an online MVJCE journal which covers the activites of R&D in engineering.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="p4.jpeg">
+                    <h3>Auditorium</h3>
+                    <p>Our state of the art auditorium has a seating capacity of 1200. The airconditioned auditorium boasts high-end equipment for sound and video.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="p3.webp">
+                    <h3>Laboratory</h3>
+                    <p>To create engineers who will play a pivotal role in making our country self sufficient by designing indigenous products we provide them with all the modern facilities and labs.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h1>Enroll for our various courses</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+    </body>
+</html>
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(mvj.jpeg.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: white;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.courses{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #e28282;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.contact{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(p6.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.contact{
+    color: #fff;
+}
